@@ -81,6 +81,25 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* VorkLab design tokens */
+  --base-bg: #0C0F15;
+  --vorklab-accent: #5EEAD4;
+  --accent-rgb: 94, 234, 212;
+  --main-text: #F2F2F2;
+  --light-text: #A0A0A0;
+  --vorklab-card-bg: #1A1A1A;
+  --vorklab-card-border: #444444;
+  --hero-bg: #0D1B1E;
+  --heading-text: #C9D6D5;
+  --border-radius-main: 6px;
+
+  --z-canvas: 0;
+  --z-content: 10;
+  --z-sticky: 30;
+  --z-overlay: 40;
+  --z-modal: 50;
+  --z-toast: 60;
 }
 
 .dark {
@@ -127,4 +146,21 @@
   html {
     @apply font-sans;
   }
+}
+
+body {
+  background-color: var(--base-bg);
+  color: var(--main-text);
+  font-family: var(--font-plus-jakarta-sans), system-ui, sans-serif;
+}
+
+.reveal-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal-section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
