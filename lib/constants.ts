@@ -1,24 +1,28 @@
 export const CALENDLY_URL = "https://calendly.com/apovalov/30min";
 
 export const CONTACT = {
-  email: "hello@vorklab.com",
-  phone: "+1 000 000 000",
+  email: "apovalov@gmail.com",
 } as const;
 
+export const TELEGRAM_PERSONAL = "https://t.me/apovalov";
+export const TELEGRAM_PERSONAL_HANDLE = "@apovalov";
+export const TELEGRAM_CHANNEL = "https://t.me/focus_ops";
+export const TELEGRAM_CHANNEL_HANDLE = "@focus_ops";
+export const GITHUB_URL = "https://github.com/apovalov";
+export const GITHUB_HANDLE = "apovalov";
+
 export const NAV_LINKS = [
-  { label: "Home", href: "/" },
-  { label: "Products", href: "/products" },
-  { label: "Blog", href: "/blog" },
-  { label: "About", href: "/about" },
-  { label: "FAQ", href: "/faq" },
+  { label: "Услуги", href: "/#solutions" },
+  { label: "Что автоматизируем", href: "/#automate" },
+  { label: "Кейсы", href: "/#cases" },
+  { label: "Об авторе", href: "/#about" },
 ] as const;
 
 export const FOOTER_LINKS = [
-  { label: "Home", href: "/" },
-  { label: "Why Us", href: "/#why-us" },
-  { label: "AI Solutions", href: "/#ai-solutions" },
-  { label: "Testimonials", href: "/#social-proof" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Главная", href: "/" },
+  { label: "Услуги", href: "/#solutions" },
+  { label: "Что автоматизируем", href: "/#automate" },
+  { label: "Кейсы", href: "/#cases" },
+  { label: "Об авторе", href: "/#about" },
+  { label: "Контакт", href: "/#contact" },
 ] as const;
