@@ -12,7 +12,7 @@ export function Cta() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] mb-6">
-            Готовы обсудить задачу?
+            Покажите задачу - подумаем вместе
           </h2>
         </RevealOnScroll>
         <RevealOnScroll>
