@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/landing/Navbar";
 import { Hero } from "@/components/landing/Hero";
 import { Solutions } from "@/components/landing/Solutions";
-import { RoiCalculator } from "@/components/landing/RoiCalculator";
+import { AutomateBlock } from "@/components/landing/AutomateBlock";
 import { HowWeWork } from "@/components/landing/HowWeWork";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { Cta } from "@/components/landing/Cta";
@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <Solutions />
-        <RoiCalculator />
+        <AutomateBlock />
         <HowWeWork />
         <Testimonials />
         <Cta />
