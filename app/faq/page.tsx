@@ -5,7 +5,7 @@ const faqs = [
   { q: "What kind of AI solutions do you build?", a: "We build custom AI agents, chatbots, voice bots, internal automation tools, and full AI-powered applications tailored to your business needs." },
   { q: "How long does a typical project take?", a: "Most projects go live in 1-2 weeks. Complex systems may take longer, but we always define timelines upfront." },
   { q: "Do I need technical knowledge to work with you?", a: "No. We handle all the technical work and explain everything in plain language. You focus on your business, we handle the AI." },
-  { q: "What tools and platforms do you use?", a: "We work with whatever fits your stack — n8n, Make, custom APIs, CRMs, Telegram, WhatsApp, Slack, and more. We build around your existing tools." },
+  { q: "What tools and platforms do you use?", a: "We work with whatever fits your stack - n8n, Make, custom APIs, CRMs, Telegram, WhatsApp, Slack, and more. We build around your existing tools." },
   { q: "What happens after the project is delivered?", a: "We provide ongoing support and can iterate on the system as your needs evolve. We don't disappear after launch." },
   { q: "How much does it cost?", a: "Projects start from $1,000. Pricing depends on complexity and scope, which we clarify during the initial call." },
 ];

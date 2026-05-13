@@ -151,7 +151,7 @@
 body {
   background-color: var(--base-bg);
   color: var(--main-text);
-  font-family: var(--font-plus-jakarta-sans), system-ui, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 .reveal-section {

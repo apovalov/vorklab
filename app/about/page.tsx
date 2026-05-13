@@ -9,7 +9,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 py-20 text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] mb-6">About VorkLab</h1>
           <p className="text-[var(--light-text)] text-lg mb-8">
-            We&apos;re a team of AI engineers and automation specialists who build custom solutions for businesses. We focus on delivering working systems — not slide decks.
+            We&apos;re a team of AI engineers and automation specialists who build custom solutions for businesses. We focus on delivering working systems - not slide decks.
           </p>
           <p className="text-[var(--light-text)]">More details coming soon.</p>
         </div>

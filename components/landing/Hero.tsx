@@ -11,8 +11,7 @@ export function Hero() {
           AI automation that works for your business
         </h1>
         <p className="text-base md:text-lg text-[var(--light-text)] mb-10 max-w-2xl mx-auto">
-          From intelligent agents to custom applications — built to integrate
-          with your operations.
+          AI-студия с 15+ лет в IT. Production-опыт в маркетплейсах Восточной Европы, medtech и e-commerce. Помогаем SMB и руководителям команд внедрить AI: от ассистента до автоматизации воронок.
         </p>
         <div className="flex flex-col items-center gap-3">
           <a
@@ -21,10 +20,10 @@ export function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[var(--vorklab-accent)] text-[var(--base-bg)] hover:brightness-110 transition-all duration-300 rounded-[var(--border-radius-main)] text-base px-8 py-4 font-medium"
           >
-            Book a Call
+            Записаться на 30-мин разбор
           </a>
           <p className="text-sm text-[var(--light-text)]">
-            Quick intro call to discuss your idea.
+            Без КП и обязательств. Послушаем задачу и предложим формат.
           </p>
         </div>
       </div>

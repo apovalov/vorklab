@@ -1,30 +1,31 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  variable: "--font-plus-jakarta-sans",
+const manrope = Manrope({
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
-  title: "VorkLab — AI Automation Solutions for Your Business",
+  title: "VorkLab - AI-студия с production-опытом",
   description:
-    "Custom AI agents, chatbots, and automation systems built to integrate with your business. From idea to launch in 1-2 weeks.",
+    "AI-внедрения для бизнеса. 15+ лет в IT, прод-опыт в маркетплейсах Восточной Европы, medtech и e-commerce. От ассистента до автоматизации воронок.",
   metadataBase: new URL("https://vorklab.com"),
   openGraph: {
-    title: "VorkLab — AI Automation Solutions for Your Business",
+    title: "VorkLab - AI-студия с production-опытом",
     description:
-      "Custom AI agents, chatbots, and automation systems built to integrate with your business. From idea to launch in 1-2 weeks.",
+      "AI-внедрения для бизнеса. 15+ лет в IT, прод-опыт в маркетплейсах Восточной Европы, medtech и e-commerce.",
     type: "website",
     url: "https://vorklab.com",
     siteName: "VorkLab",
+    locale: "ru_RU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "VorkLab — AI Automation Solutions for Your Business",
+    title: "VorkLab - AI-студия с production-опытом",
     description:
-      "Custom AI agents, chatbots, and automation systems built to integrate with your business. From idea to launch in 1-2 weeks.",
+      "AI-внедрения для бизнеса. 15+ лет в IT, прод-опыт в маркетплейсах Восточной Европы, medtech и e-commerce.",
   },
   robots: "index, follow",
   other: {
@@ -38,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={plusJakartaSans.variable}>
+    <html lang="ru" className={manrope.variable}>
       <body className="antialiased">{children}</body>
     </html>
   );
