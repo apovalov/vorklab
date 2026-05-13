@@ -3,7 +3,7 @@ import { Hero } from "@/components/landing/Hero";
 import { Solutions } from "@/components/landing/Solutions";
 import { AutomateBlock } from "@/components/landing/AutomateBlock";
 import { HowWeWork } from "@/components/landing/HowWeWork";
-import { Testimonials } from "@/components/landing/Testimonials";
+import { Cases } from "@/components/landing/Cases";
 import { Cta } from "@/components/landing/Cta";
 import { Footer } from "@/components/landing/Footer";
 
@@ -16,7 +16,7 @@ export default function Home() {
         <Solutions />
         <AutomateBlock />
         <HowWeWork />
-        <Testimonials />
+        <Cases />
         <Cta />
       </main>
       <Footer />
