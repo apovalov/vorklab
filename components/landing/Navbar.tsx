@@ -35,14 +35,14 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-[var(--vorklab-accent)] text-[var(--base-bg)] hover:brightness-110 transition-all duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
             >
-              Book a Call
+              Записаться на разбор
             </a>
           </div>
 
           <button
             className="md:hidden text-[var(--main-text)]"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
+            aria-label="Открыть меню"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -66,7 +66,7 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center bg-[var(--vorklab-accent)] text-[var(--base-bg)] hover:brightness-110 transition-all duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
             >
-              Book a Call
+              Записаться на разбор
             </a>
           </div>
         )}
