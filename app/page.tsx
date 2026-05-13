@@ -4,6 +4,7 @@ import { Solutions } from "@/components/landing/Solutions";
 import { AutomateBlock } from "@/components/landing/AutomateBlock";
 import { HowWeWork } from "@/components/landing/HowWeWork";
 import { Cases } from "@/components/landing/Cases";
+import { About } from "@/components/landing/About";
 import { Cta } from "@/components/landing/Cta";
 import { Footer } from "@/components/landing/Footer";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <AutomateBlock />
         <HowWeWork />
         <Cases />
+        <About />
         <Cta />
       </main>
       <Footer />
