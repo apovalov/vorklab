@@ -55,6 +55,14 @@ export function Footer() {
               </li>
               <li>
                 <a
+                  href={`tel:${CONTACT.phoneTel}`}
+                  className="text-[var(--light-text)] hover:text-[var(--main-text)] transition-colors duration-300"
+                >
+                  {CONTACT.phone}
+                </a>
+              </li>
+              <li>
+                <a
                   href={TELEGRAM_PERSONAL}
                   target="_blank"
                   rel="noopener noreferrer"

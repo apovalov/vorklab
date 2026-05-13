@@ -2,6 +2,8 @@ export const CALENDLY_URL = "https://calendly.com/apovalov/30min";
 
 export const CONTACT = {
   email: "apovalov@gmail.com",
+  phone: "+995 511 286 618",
+  phoneTel: "+995511286618",
 } as const;
 
 export const TELEGRAM_PERSONAL = "https://t.me/apovalov";
