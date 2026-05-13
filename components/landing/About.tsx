@@ -61,7 +61,7 @@ export function About() {
                   AI/ML Engineer · команда VorkLab · 15+ лет в IT · Белград
                 </p>
                 <p className="text-[var(--main-text)] text-sm md:text-base leading-relaxed mb-5">
-                  Делаем AI-внедрения под ключ: текстовые и голосовые агенты, RAG, evals. Production-опыт в маркетплейсе ЦВЕ, medtech и e-commerce. Канал @focus_ops - про процесс и реальные кейсы; GitHub - открытые компоненты и шаблоны.
+                  Делаем AI-внедрения под ключ - текстовые и голосовые агенты, RAG, evals - и публикуем процесс открыто. Production-опыт в маркетплейсах Восточной Европы, medtech и e-commerce. Канал @focus_ops - про процесс и реальные кейсы; GitHub - открытые компоненты и шаблоны.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <a

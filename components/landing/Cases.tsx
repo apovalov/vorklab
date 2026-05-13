@@ -23,7 +23,7 @@ const cases: readonly Case[] = [
       { text: "✓ Allegro", kind: "open" },
       { text: "CEE Marketplace · Support AI", kind: "domain" },
     ],
-    title: "Customer Support AI в крупнейшем маркетплейсе ЦВЕ",
+    title: "Customer Support AI в крупнейшем маркетплейсе Восточной Европы",
     role: "AI/ML Engineer · 20M+ покупателей, 5 языков",
     bullets: [
       { text: "Multilingual RAG + agentic workflows (PL / CZ / SK / HU / EN)" },
@@ -90,7 +90,7 @@ export function Cases() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] hover:brightness-125 transition-all duration-300 text-center mb-4 py-6 md:py-10">
-            Прошлый прод-опыт
+            Кейсы
           </h2>
         </RevealOnScroll>
 
