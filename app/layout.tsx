@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  variable: "--font-plus-jakarta-sans",
+const manrope = Manrope({
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ru" className={plusJakartaSans.variable}>
+    <html lang="ru" className={manrope.variable}>
       <body className="antialiased">{children}</body>
     </html>
   );
