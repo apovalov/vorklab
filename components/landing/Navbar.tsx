@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { NAV_LINKS, CALENDLY_URL } from "@/lib/constants";
+import { NAV_LINKS } from "@/lib/constants";
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,14 +29,12 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href={CALENDLY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-[var(--vorklab-accent)] text-[var(--base-bg)] hover:brightness-110 transition-all duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
+            <Link
+              href="/#contact"
+              className="inline-flex items-center justify-center border border-[var(--vorklab-card-border)] text-[var(--light-text)] hover:text-[var(--vorklab-accent)] hover:border-[var(--vorklab-accent)] transition-colors duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
             >
-              Записаться на разбор
-            </a>
+              Связаться
+            </Link>
           </div>
 
           <button
@@ -60,14 +58,13 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href={CALENDLY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center bg-[var(--vorklab-accent)] text-[var(--base-bg)] hover:brightness-110 transition-all duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
+            <Link
+              href="/#contact"
+              onClick={() => setMobileOpen(false)}
+              className="inline-flex w-full items-center justify-center border border-[var(--vorklab-card-border)] text-[var(--light-text)] hover:text-[var(--vorklab-accent)] hover:border-[var(--vorklab-accent)] transition-colors duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
             >
-              Записаться на разбор
-            </a>
+              Связаться
+            </Link>
           </div>
         )}
       </div>
