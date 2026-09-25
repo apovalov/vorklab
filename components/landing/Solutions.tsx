@@ -8,8 +8,8 @@ const tiers = [
     label: "Start here",
     title: "AI consultation and audit",
     pitch: "A 60-minute call and a written roadmap: what to implement and in what order.",
-    price: "RUB 9,000",
-    priceNote: "~$100",
+    price: "$100",
+    priceNote: "One-time",
     duration: "1 week",
     bullets: [
       "60-minute discovery call",
@@ -25,7 +25,7 @@ const tiers = [
     label: "AI assistant",
     title: "Your own AI assistant",
     pitch: "A Telegram bot or OpenWebUI assistant with retrieval over your documents and knowledge base.",
-    price: "From RUB 15,000",
+    price: "From $200",
     priceNote: "+ ~$50/month hosting",
     duration: "3–7 days to set up",
     bullets: [
@@ -42,7 +42,7 @@ const tiers = [
     label: "Workflow automation",
     title: "Automate one workflow",
     pitch: "An FAQ bot, lead processing, a team assistant, or reporting: one workflow delivered end to end.",
-    price: "From RUB 30,000",
+    price: "From $400",
     priceNote: undefined,
     duration: "2–4 weeks",
     bullets: [
@@ -64,6 +64,9 @@ export function Solutions() {
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] hover:brightness-125 transition-all duration-300 text-center mb-4 py-6 md:py-10">
             Services and pricing
           </h2>
+          <p className="text-center text-sm text-[var(--light-text)] mb-8">
+            All prices in USD. Final scope and quote agreed before work begins.
+          </p>
         </RevealOnScroll>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">

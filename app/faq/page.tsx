@@ -7,7 +7,7 @@ const faqs = [
   { q: "Do I need technical knowledge to work with you?", a: "No. We handle all the technical work and explain everything in plain language. You focus on your business, we handle the AI." },
   { q: "What tools and platforms do you use?", a: "We work with whatever fits your stack - n8n, Make, custom APIs, CRMs, Telegram, WhatsApp, Slack, and more. We build around your existing tools." },
   { q: "What happens after the project is delivered?", a: "We provide ongoing support and can iterate on the system as your needs evolve. We don't disappear after launch." },
-  { q: "How much does it cost?", a: "See the service prices on our homepage. We confirm the scope, currency, hosting costs, and final quote before work begins." },
+  { q: "How much does it cost?", a: "All prices are in US dollars (USD). See the service prices on our homepage. We confirm the scope, hosting costs, and final quote before work begins." },
 ];
 
 export default function FAQ() {
