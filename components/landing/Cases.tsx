@@ -23,13 +23,13 @@ const cases: readonly Case[] = [
       { text: "✓ Allegro", kind: "open" },
       { text: "CEE Marketplace · Support AI", kind: "domain" },
     ],
-    title: "Customer Support AI в крупнейшем маркетплейсе Восточной Европы",
-    role: "AI/ML Engineer · 20M+ покупателей, 5 языков",
+    title: "Customer support AI for a major marketplace",
+    role: "AI/ML Engineer · 20M+ buyers, 5 languages",
     bullets: [
       { text: "Multilingual RAG + agentic workflows (PL / CZ / SK / HU / EN)" },
-      { text: "PoC → prod за 26 недель" },
+      { text: "Proof of concept to production in 26 weeks" },
       { text: "~45% auto-resolution, CSAT ~76%, p95 ≤ 350ms", metric: "yes" },
-      { text: "Гибридный retrieval по 40M+ чанков, hallucinations ↓×5 (critic + reranker)" },
+      { text: "Hybrid retrieval over 40M+ chunks; 5× reduction in hallucinations using a critic and reranker" },
     ],
   },
   {
@@ -37,21 +37,21 @@ const cases: readonly Case[] = [
       { text: "NDA", kind: "nda" },
       { text: "Medtech · Voice + Text", kind: "domain" },
     ],
-    title: "Голосовые и текстовые AI-ассистенты для medtech-сервиса",
-    role: "AI Engineer · live traffic, реальные клиники",
+    title: "Voice and text AI assistants for a medtech service",
+    role: "AI Engineer · production traffic at clinics",
     bullets: [
-      { text: "Обработка входящих обращений в голосе и тексте, квалификация" },
-      { text: "Бронирование визитов, перенос / отмена, подтверждения, напоминания" },
-      { text: "LangGraph + voice stack (Eleven / Silero / Yandex), RAG по доменной базе" },
-      { text: "Evals и guardrails в проде - ловит галлюцинации до клиента" },
+      { text: "Handling and qualifying incoming voice and text enquiries" },
+      { text: "Booking, rescheduling, cancellations, confirmations, and reminders" },
+      { text: "LangGraph and voice tools (Eleven / Silero / Yandex), with domain-specific retrieval" },
+      { text: "Production evaluations and guardrails to detect unsupported answers" },
     ],
   },
   {
     tags: [
       { text: "NDA", kind: "nda" },
-      { text: "E-commerce ритейлер · RecSys", kind: "domain" },
+      { text: "E-commerce retailer · Recommendations", kind: "domain" },
     ],
-    title: "Рекомендательные системы для крупного европейского e-commerce-ритейлера",
+    title: "Recommendation systems for a major e-commerce retailer",
     role: "AI/ML Engineer · production, AB-tested",
     bullets: [
       { text: "Similar-items (HNSW + ALS): +8% CTR", metric: "yes" },
@@ -64,12 +64,12 @@ const cases: readonly Case[] = [
       { text: "NDA", kind: "nda" },
       { text: "Gamedev Studio · Classic ML", kind: "domain" },
     ],
-    title: "ML-стек для gamedev-студии: LTV, churn, аномалии, сегментация",
+    title: "Lifetime value, churn, anomaly detection, and segmentation for a game studio",
     role: "ML Engineer · production CRM impact",
     bullets: [
-      { text: "LTV-модель в проде: +19% ROI по маркетинговым кампаниям", metric: "yes" },
+      { text: "Production lifetime-value model: +19% marketing campaign ROI", metric: "yes" },
       { text: "Churn prediction (CatBoost / SGB) + anomaly detection (IsolationForest)" },
-      { text: "Player clustering (DBSCAN) для персональных CRM-сценариев" },
+      { text: "Player clustering (DBSCAN) for personalised CRM workflows" },
     ],
   },
 ] as const;
@@ -90,10 +90,13 @@ export function Cases() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] hover:brightness-125 transition-all duration-300 text-center mb-4 py-6 md:py-10">
-            Кейсы
+            Engineering experience
           </h2>
         </RevealOnScroll>
 
+        <p className="text-center text-[var(--light-text)] text-sm max-w-2xl mx-auto mb-8">
+          Selected work from Valentin Shapovalov’s engineering career, including roles before VorkLab. These projects show the experience behind the practice.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {cases.map((c) => (
             <RevealOnScroll key={c.title}>

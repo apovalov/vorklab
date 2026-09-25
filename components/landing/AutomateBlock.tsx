@@ -23,55 +23,55 @@ type Process = {
 const processes: readonly Process[] = [
   {
     icon: MessageSquare,
-    title: "Чат-бот FAQ и поддержка",
+    title: "FAQ and customer support",
     description:
-      "Отвечает на типовые вопросы клиентов из вашей базы знаний. Эскалирует сложное оператору. Multilingual если нужно.",
+      "Answer common customer questions using your knowledge base and hand complex requests to a person. Add multilingual support where needed.",
     proofKind: "accent",
-    proofText: "~45% обращений без оператора, CSAT ~76%",
-    proofNote: "в проекте маркетплейса Восточной Европы, 20M+ покупателей",
+    proofText: "~45% automatic resolution, ~76% CSAT",
+    proofNote: "From prior engineering experience at a marketplace with 20M+ buyers",
   },
   {
     icon: PhoneCall,
-    title: "Запись на услуги и подтверждения",
+    title: "Appointment booking and reminders",
     description:
-      "Входящие в голосе и тексте: квалификация, бронирование визитов, перенос / отмена, подтверждения, напоминания.",
+      "Handle voice and text enquiries, qualify requests, book or reschedule appointments, and send confirmations and reminders.",
     proofKind: "accent",
-    proofText: "Live traffic в medtech-сервисе",
-    proofNote: "прод-внедрение под NDA",
+    proofText: "Production experience in medtech",
+    proofNote: "Prior engineering work; client details confidential",
   },
   {
     icon: Inbox,
-    title: "Обработка входящих заявок",
+    title: "Incoming lead processing",
     description:
-      "Quick triage: классификация по типу, заполнение полей в CRM, маршрутизация на ответственного.",
+      "Classify incoming requests, populate CRM fields, and route each lead to the right person.",
     proofKind: "neutral",
-    proofText: "Интеграция с вашей CRM / Notion / Trello",
+    proofText: "Connect your CRM, Notion, or Trello",
   },
   {
     icon: Bot,
-    title: "Личный AI-ассистент команде",
+    title: "A knowledge assistant for your team",
     description:
-      "Telegram-бот или OpenWebUI с RAG по вашим документам. Ответы под рукой, без поиска по Notion / Confluence / Google Drive.",
+      "Give your team an assistant that retrieves answers from your documents, including Notion, Confluence, and Google Drive.",
     proofKind: "accent",
-    proofText: "Сетап за 3-7 дней",
-    proofNote: "формат wedge, фикс-цена",
+    proofText: "Setup in 3–7 days",
+    proofNote: "Defined scope and fixed setup price",
   },
   {
     icon: FileText,
-    title: "Генерация описаний и контента",
+    title: "Product descriptions and content",
     description:
-      "Описания товаров для маркетплейсов и каталогов, SEO-страницы, шаблонные тексты под бренд-голос.",
+      "Generate product descriptions, catalogue content, and SEO pages using templates and your brand voice.",
     proofKind: "neutral",
-    proofText: "Batch / API · под ваш бренд-голос",
+    proofText: "Batch or API delivery · your brand voice",
   },
   {
     icon: BarChart3,
-    title: "Сегментация и персональные сценарии",
+    title: "Segmentation and personalisation",
     description:
-      "Сегментация клиентов, LTV / churn, anomaly detection. Триггеры для CRM, маркетинга, удержания.",
+      "Segment customers, predict lifetime value and churn, and detect anomalies. Connect the results to CRM and retention workflows.",
     proofKind: "accent",
-    proofText: "+19% ROI по маркетинговым кампаниям",
-    proofNote: "gamedev-студия, classic ML",
+    proofText: "+19% marketing campaign ROI",
+    proofNote: "From prior ML engineering work at a game studio",
   },
 ] as const;
 
@@ -81,7 +81,7 @@ export function AutomateBlock() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] hover:brightness-125 transition-all duration-300 text-center mb-4 py-6 md:py-10">
-            Что мы автоматизируем
+            What we automate
           </h2>
         </RevealOnScroll>
 

@@ -40,7 +40,7 @@ export function About() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] hover:brightness-125 transition-all duration-300 text-center mb-4 py-6 md:py-10">
-            Об авторе
+            About
           </h2>
         </RevealOnScroll>
 
@@ -51,17 +51,17 @@ export function About() {
                 aria-hidden="true"
                 className="w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center text-[var(--base-bg)] font-bold text-2xl md:text-3xl flex-shrink-0 bg-gradient-to-br from-[var(--vorklab-accent)] to-[#2dd4bf]"
               >
-                В
+                V
               </div>
               <div className="flex-1">
                 <h3 className="text-lg md:text-xl font-semibold text-[var(--heading-text)] mb-1">
-                  Валентин Шаповалов
+                  Valentin Shapovalov
                 </h3>
                 <p className="text-[var(--light-text)] text-sm mb-4">
-                  AI/ML Engineer · команда VorkLab · 15+ лет в IT · Белград
+                  AI/ML Engineer · Founder of VorkLab · 15+ years in IT
                 </p>
                 <p className="text-[var(--main-text)] text-sm md:text-base leading-relaxed mb-5">
-                  Делаем AI-внедрения под ключ - текстовые и голосовые агенты, RAG, evals - и публикуем процесс открыто. Production-опыт в маркетплейсах Восточной Европы, medtech и e-commerce. Канал @focus_ops - про процесс и реальные кейсы; GitHub - открытые компоненты и шаблоны.
+                  I lead VorkLab and build AI systems from discovery to deployment: text and voice agents, retrieval, and evaluations. My engineering experience spans marketplaces, medtech, and e-commerce. I share practical lessons on @focus_ops and publish components and templates on GitHub.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <a

@@ -5,53 +5,53 @@ import { CALENDLY_URL } from "@/lib/constants";
 const tiers = [
   {
     icon: ClipboardCheck,
-    label: "Tripwire · вход",
-    title: "Часовая консультация / AI-аудит",
-    pitch: "60-мин звонок + roadmap-документ: что внедрять и в каком порядке.",
-    price: "9 000 ₽",
+    label: "Start here",
+    title: "AI consultation and audit",
+    pitch: "A 60-minute call and a written roadmap: what to implement and in what order.",
+    price: "RUB 9,000",
     priceNote: "~$100",
-    duration: "1 неделя",
+    duration: "1 week",
     bullets: [
-      "60-минутный звонок-разбор",
-      "12-вопросный скоринг по фреймворку Discovery",
-      "Roadmap-документ с приоритетами",
-      "Рекомендация по следующему шагу",
+      "60-minute discovery call",
+      "A structured assessment of your needs",
+      "Written roadmap with priorities",
+      "Recommended next step",
     ],
-    ctaLabel: "Записаться",
+    ctaLabel: "Book a call",
     highlight: false,
   },
   {
     icon: Bot,
-    label: "Wedge · якорь",
-    title: "Личный AI-ассистент под ключ",
-    pitch: "Telegram-бот или OpenWebUI с RAG по вашим документам и базе знаний.",
-    price: "от 15 000 ₽",
-    priceNote: "+ ~50$/мес инфра",
-    duration: "3-7 дней setup",
+    label: "AI assistant",
+    title: "Your own AI assistant",
+    pitch: "A Telegram bot or OpenWebUI assistant with retrieval over your documents and knowledge base.",
+    price: "From RUB 15,000",
+    priceNote: "+ ~$50/month hosting",
+    duration: "3–7 days to set up",
     bullets: [
-      "Установка на ваш сервер или нашу инфру",
-      "RAG по вашей базе знаний / документам",
-      "2 онбординг-созвона по 30 минут",
-      "Поддержка месяц + обновления промптов",
+      "Deployment on your server or managed infrastructure",
+      "Answers grounded in your documents and knowledge base",
+      "Two 30-minute onboarding calls",
+      "One month of support and prompt updates",
     ],
-    ctaLabel: "Записаться на разбор",
+    ctaLabel: "Book a discovery call",
     highlight: true,
   },
   {
     icon: Workflow,
-    label: "Core · автоматизация",
-    title: "Автоматизация одного процесса",
-    pitch: "Чат-бот FAQ, обработка заявок, помощник менеджеру, отчётность - один процесс под ключ.",
-    price: "от 30 000 ₽",
+    label: "Workflow automation",
+    title: "Automate one workflow",
+    pitch: "An FAQ bot, lead processing, a team assistant, or reporting: one workflow delivered end to end.",
+    price: "From RUB 30,000",
     priceNote: undefined,
-    duration: "2-4 недели",
+    duration: "2–4 weeks",
     bullets: [
-      "Discovery → MVP → итерации → handover",
-      "Один из 6 типовых: FAQ / заявки / описания / отчётность / запись",
-      "AB-тест и метрики до и после",
-      "Документация + передача команде",
+      "Discovery → MVP → iteration → handover",
+      "One agreed workflow: support, leads, content, reporting, or booking",
+      "Before-and-after metrics and A/B testing",
+      "Documentation and team handover",
     ],
-    ctaLabel: "Обсудить задачу",
+    ctaLabel: "Discuss your project",
     highlight: false,
   },
 ] as const;
@@ -62,7 +62,7 @@ export function Solutions() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] hover:brightness-125 transition-all duration-300 text-center mb-4 py-6 md:py-10">
-            Услуги и цены
+            Services and pricing
           </h2>
         </RevealOnScroll>
 
@@ -81,7 +81,7 @@ export function Solutions() {
                 >
                   {isHighlighted && (
                     <span className="absolute -top-3 right-4 bg-[var(--vorklab-accent)] text-[var(--base-bg)] text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
-                      Самый частый
+                      AI assistant setup
                     </span>
                   )}
                   <Icon className="text-[var(--vorklab-accent)] mb-4" size={28} />
@@ -94,7 +94,7 @@ export function Solutions() {
                   <p className="text-[var(--light-text)] text-sm md:text-base mb-5">
                     {tier.pitch}
                   </p>
-                  <div className="flex items-baseline gap-2 mb-1">
+                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
                     <span className="text-2xl md:text-3xl font-bold text-[var(--main-text)]">
                       {tier.price}
                     </span>

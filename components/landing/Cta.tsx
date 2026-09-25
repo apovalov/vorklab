@@ -12,12 +12,12 @@ export function Cta() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <RevealOnScroll>
           <h2 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] mb-6">
-            Покажите задачу - подумаем вместе
+            Tell us what you want to improve
           </h2>
         </RevealOnScroll>
         <RevealOnScroll>
           <p className="text-[var(--light-text)] text-base md:text-lg mb-8 max-w-2xl mx-auto">
-            30 минут разговора - расскажете, что у вас сейчас, мы скажем, чем можем помочь и в каком формате. Без КП и обязательств.
+            In a free 30-minute call, we will review your current process and discuss where AI could help. You will leave with a clear next step, with no obligation.
           </p>
           <a
             href={CALENDLY_URL}
@@ -25,16 +25,16 @@ export function Cta() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[var(--vorklab-accent)] text-[var(--base-bg)] hover:brightness-110 transition-all duration-300 rounded-[var(--border-radius-main)] text-base px-8 py-4 font-medium"
           >
-            Записаться на 30-мин разбор
+            Book a 30-minute discovery call
           </a>
         </RevealOnScroll>
         <RevealOnScroll>
           <div className="mt-12 bg-[var(--vorklab-card-bg)] border border-[var(--vorklab-card-border)] rounded-[var(--border-radius-main)] p-6 md:p-8 max-w-md mx-auto">
             <h3 className="text-xl font-semibold text-[var(--heading-text)] mb-3">
-              Не готовы созваниваться?
+              Prefer to write first?
             </h3>
             <p className="text-[var(--light-text)] text-sm mb-4">
-              Напишите - ответим в течение дня.
+              Send a message about your project.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

@@ -33,14 +33,14 @@ export function Navbar() {
               href="/#contact"
               className="inline-flex items-center justify-center border border-[var(--vorklab-card-border)] text-[var(--light-text)] hover:text-[var(--vorklab-accent)] hover:border-[var(--vorklab-accent)] transition-colors duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
             >
-              Связаться
+              Contact
             </Link>
           </div>
 
           <button
             className="md:hidden text-[var(--main-text)]"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Открыть меню"
+            aria-label="Open navigation menu"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -63,7 +63,7 @@ export function Navbar() {
               onClick={() => setMobileOpen(false)}
               className="inline-flex w-full items-center justify-center border border-[var(--vorklab-card-border)] text-[var(--light-text)] hover:text-[var(--vorklab-accent)] hover:border-[var(--vorklab-accent)] transition-colors duration-300 rounded-[var(--border-radius-main)] text-sm font-medium px-4 h-8"
             >
-              Связаться
+              Contact
             </Link>
           </div>
         )}

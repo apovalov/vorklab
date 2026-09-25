@@ -13,17 +13,17 @@ export const GITHUB_URL = "https://github.com/apovalov";
 export const GITHUB_HANDLE = "apovalov";
 
 export const NAV_LINKS = [
-  { label: "Услуги", href: "/#solutions" },
-  { label: "Что автоматизируем", href: "/#automate" },
-  { label: "Кейсы", href: "/#cases" },
-  { label: "Об авторе", href: "/#about" },
+  { label: "Services", href: "/#solutions" },
+  { label: "Automation", href: "/#automate" },
+  { label: "Engineering experience", href: "/#cases" },
+  { label: "About", href: "/#about" },
 ] as const;
 
 export const FOOTER_LINKS = [
-  { label: "Главная", href: "/" },
-  { label: "Услуги", href: "/#solutions" },
-  { label: "Что автоматизируем", href: "/#automate" },
-  { label: "Кейсы", href: "/#cases" },
-  { label: "Об авторе", href: "/#about" },
-  { label: "Контакт", href: "/#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/#solutions" },
+  { label: "Automation", href: "/#automate" },
+  { label: "Engineering experience", href: "/#cases" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
 ] as const;

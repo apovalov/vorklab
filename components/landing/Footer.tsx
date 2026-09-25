@@ -20,12 +20,12 @@ export function Footer() {
               VorkLab
             </Link>
             <p className="text-[var(--light-text)] text-sm mt-3">
-              AI-студия с production-опытом. Внедряем AI в бизнес-процессы под ключ.
+              AI engineering and workflow automation, from discovery to production.
             </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-[var(--heading-text)] mb-4">
-              Навигация
+              Explore
             </h3>
             <ul className="space-y-2">
               {FOOTER_LINKS.map((link) => (
@@ -42,7 +42,7 @@ export function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-[var(--heading-text)] mb-4">
-              Контакт
+              Contact
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -78,7 +78,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="text-[var(--light-text)] hover:text-[var(--main-text)] transition-colors duration-300"
                 >
-                  Канал {TELEGRAM_CHANNEL_HANDLE}
+                  Channel {TELEGRAM_CHANNEL_HANDLE}
                 </a>
               </li>
               <li>
