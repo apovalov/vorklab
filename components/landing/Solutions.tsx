@@ -9,6 +9,7 @@ const tiers = [
     title: "AI consultation and audit",
     pitch: "A 60-minute call and a written roadmap: what to implement and in what order.",
     price: "$100",
+    originalPrice: "$200",
     priceNote: "One-time",
     duration: "1 week",
     bullets: [
@@ -26,6 +27,7 @@ const tiers = [
     title: "Your own AI assistant",
     pitch: "A Telegram bot or OpenWebUI assistant with retrieval over your documents and knowledge base.",
     price: "From $200",
+    originalPrice: "$400",
     priceNote: "+ ~$50/month hosting",
     duration: "3–7 days to set up",
     bullets: [
@@ -42,7 +44,8 @@ const tiers = [
     label: "Workflow automation",
     title: "Automate one workflow",
     pitch: "An FAQ bot, lead processing, a team assistant, or reporting: one workflow delivered end to end.",
-    price: "From $400",
+    price: "From $800",
+    originalPrice: undefined,
     priceNote: undefined,
     duration: "2–4 weeks",
     bullets: [
@@ -98,15 +101,22 @@ export function Solutions() {
                     {tier.pitch}
                   </p>
                   <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
-                    <span className="text-2xl md:text-3xl font-bold text-[var(--main-text)]">
+                    {tier.originalPrice && (
+                      <s className="text-lg md:text-xl text-[var(--light-text)] decoration-1">
+                        <span className="sr-only">Regular price: </span>
+                        {tier.originalPrice}
+                      </s>
+                    )}
+                    <span className={`text-2xl md:text-3xl font-bold ${tier.originalPrice ? "text-[var(--vorklab-accent)]" : "text-[var(--main-text)]"}`}>
+                      {tier.originalPrice && <span className="sr-only">Current price: </span>}
                       {tier.price}
                     </span>
-                    {tier.priceNote && (
-                      <span className="text-[var(--light-text)] text-sm">
-                        · {tier.priceNote}
-                      </span>
-                    )}
                   </div>
+                  {tier.priceNote && (
+                    <p className="text-[var(--light-text)] text-sm mb-2">
+                      {tier.priceNote}
+                    </p>
+                  )}
                   <p className="text-[var(--vorklab-accent)] text-xs font-semibold mb-5">
                     {tier.duration}
                   </p>
