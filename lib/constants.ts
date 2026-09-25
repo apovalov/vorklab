@@ -11,6 +11,8 @@ export const TELEGRAM_CHANNEL = "https://t.me/focus_ops";
 export const TELEGRAM_CHANNEL_HANDLE = "@focus_ops";
 export const GITHUB_URL = "https://github.com/apovalov";
 export const GITHUB_HANDLE = "apovalov";
+export const LINKEDIN_COMPANY_URL = "https://www.linkedin.com/company/vorklab/";
+export const LINKEDIN_PERSONAL_URL = "https://www.linkedin.com/in/valentinshapovalov/";
 
 export const NAV_LINKS = [
   { label: "Services", href: "/#solutions" },
@@ -26,4 +28,5 @@ export const FOOTER_LINKS = [
   { label: "Engineering experience", href: "/#cases" },
   { label: "About", href: "/#about" },
   { label: "Contact", href: "/#contact" },
+  { label: "Legal information", href: "/legal" },
 ] as const;

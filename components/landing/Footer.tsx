@@ -8,6 +8,8 @@ import {
   TELEGRAM_CHANNEL_HANDLE,
   GITHUB_URL,
   GITHUB_HANDLE,
+  LINKEDIN_COMPANY_URL,
+  LINKEDIN_PERSONAL_URL,
 } from "@/lib/constants";
 
 export function Footer() {
@@ -91,11 +93,25 @@ export function Footer() {
                   GitHub {GITHUB_HANDLE}
                 </a>
               </li>
+              {[
+                { href: LINKEDIN_COMPANY_URL, label: "VorkLab on LinkedIn" },
+                { href: LINKEDIN_PERSONAL_URL, label: "Valentin on LinkedIn" },
+              ].map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} target="_blank" rel="noopener noreferrer"
+                    className="text-[var(--light-text)] hover:text-[var(--main-text)] transition-colors duration-300">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
         <div className="border-t border-[var(--vorklab-card-border)]/30 mt-8 pt-8 text-center">
           <p className="text-[var(--light-text)] text-xs">© 2026 VorkLab</p>
+          <p className="text-[var(--light-text)] text-xs mt-2">
+            Services provided by Individual Entrepreneur Valentin Shapovalov.
+          </p>
         </div>
       </div>
     </footer>
