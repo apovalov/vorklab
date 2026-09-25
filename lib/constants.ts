@@ -1,7 +1,7 @@
 export const CALENDLY_URL = "https://calendly.com/apovalov/30min";
 
 export const CONTACT = {
-  email: "apovalov@gmail.com",
+  email: "hello@vorklab.com",
   phone: "+995 511 286 618",
 } as const;
 
