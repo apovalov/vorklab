@@ -9,8 +9,9 @@ const tiers = [
     title: "AI consultation and audit",
     pitch: "A 60-minute call and a written roadmap: what to implement and in what order.",
     price: "$100",
+    priceLabel: "One-time",
     originalPrice: "$200",
-    priceNote: "One-time",
+    priceNote: "Consultation & written roadmap",
     duration: "1 week",
     bullets: [
       "60-minute discovery call",
@@ -26,7 +27,8 @@ const tiers = [
     label: "AI assistant",
     title: "Your own AI assistant",
     pitch: "A Telegram bot or OpenWebUI assistant with retrieval over your documents and knowledge base.",
-    price: "From $200",
+    price: "$200",
+    priceLabel: "From",
     originalPrice: "$400",
     priceNote: "+ ~$50/month hosting",
     duration: "3–7 days to set up",
@@ -44,9 +46,10 @@ const tiers = [
     label: "Workflow automation",
     title: "Automate one workflow",
     pitch: "An FAQ bot, lead processing, a team assistant, or reporting: one workflow delivered end to end.",
-    price: "From $800",
+    price: "$800",
+    priceLabel: "From",
     originalPrice: undefined,
-    priceNote: undefined,
+    priceNote: "Per workflow",
     duration: "2–4 weeks",
     bullets: [
       "Discovery → MVP → iteration → handover",
@@ -72,7 +75,7 @@ export function Solutions() {
           </p>
         </RevealOnScroll>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
           {tiers.map((tier) => {
             const Icon = tier.icon;
             const isHighlighted = tier.highlight;
@@ -94,29 +97,32 @@ export function Solutions() {
                   <p className="text-[var(--light-text)] text-xs uppercase tracking-wider font-semibold mb-2">
                     {tier.label}
                   </p>
-                  <h3 className="text-xl md:text-2xl font-semibold text-[var(--heading-text)] mb-3">
+                  <h3 className="text-xl md:text-2xl font-semibold text-[var(--heading-text)] mb-3 lg:min-h-16">
                     {tier.title}
                   </h3>
-                  <p className="text-[var(--light-text)] text-sm md:text-base mb-5">
+                  <p className="text-[var(--light-text)] text-sm md:text-base mb-5 lg:min-h-24">
                     {tier.pitch}
                   </p>
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-1">
-                    {tier.originalPrice && (
-                      <s className="text-lg md:text-xl text-[var(--light-text)] decoration-1">
-                        <span className="sr-only">Regular price: </span>
-                        {tier.originalPrice}
-                      </s>
-                    )}
-                    <span className={`text-2xl md:text-3xl font-bold ${tier.originalPrice ? "text-[var(--vorklab-accent)]" : "text-[var(--main-text)]"}`}>
-                      {tier.originalPrice && <span className="sr-only">Current price: </span>}
-                      {tier.price}
-                    </span>
-                  </div>
-                  {tier.priceNote && (
-                    <p className="text-[var(--light-text)] text-sm mb-2">
+                  <div className="border-t border-[var(--vorklab-card-border)]/60 pt-5 mb-3">
+                    <p className="text-xs font-medium uppercase tracking-widest text-[var(--light-text)] mb-2">
+                      {tier.priceLabel}
+                    </p>
+                    <div className="flex items-baseline gap-3 whitespace-nowrap tabular-nums">
+                      <span className={`text-4xl lg:text-5xl font-semibold tracking-tight leading-none ${tier.originalPrice ? "text-[var(--vorklab-accent)]" : "text-[var(--main-text)]"}`}>
+                        {tier.originalPrice && <span className="sr-only">Current price: </span>}
+                        {tier.price}
+                      </span>
+                      {tier.originalPrice && (
+                        <s className="text-lg font-normal text-[var(--light-text)] decoration-1">
+                          <span className="sr-only">Regular price: </span>
+                          {tier.originalPrice}
+                        </s>
+                      )}
+                    </div>
+                    <p className="text-[var(--light-text)] text-xs sm:text-sm mt-3 leading-5">
                       {tier.priceNote}
                     </p>
-                  )}
+                  </div>
                   <p className="text-[var(--vorklab-accent)] text-xs font-semibold mb-5">
                     {tier.duration}
                   </p>
