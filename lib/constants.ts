@@ -19,6 +19,7 @@ export const NAV_LINKS = [
   { label: "Automation", href: "/#automate" },
   { label: "Engineering experience", href: "/#cases" },
   { label: "About", href: "/#about" },
+  { label: "Planning guide", href: "/guides/automation-planning" },
 ] as const;
 
 export const FOOTER_LINKS = [
@@ -27,6 +28,7 @@ export const FOOTER_LINKS = [
   { label: "Automation", href: "/#automate" },
   { label: "Engineering experience", href: "/#cases" },
   { label: "About", href: "/#about" },
+  { label: "Planning guide", href: "/guides/automation-planning" },
   { label: "Contact", href: "/#contact" },
   { label: "Legal information", href: "/legal" },
 ] as const;
