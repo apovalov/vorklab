@@ -3,7 +3,7 @@ import { Footer } from "@/components/landing/Footer";
 
 const faqs = [
   { q: "What kind of AI solutions do you build?", a: "We build voice and text AI agents for customer questions, enquiries, and booking. We also integrate Autop to automate development tasks, code reviews, and pull requests in GitHub." },
-  { q: "How long does a typical project take?", a: "An initial voice or text agent setup typically takes 3-7 days. Autop development automation takes 1-2 weeks to integrate for an agreed pilot. We confirm scope, access requirements, and timing before starting." },
+  { q: "How long does a typical project take?", a: "An initial voice or text agent setup typically takes 3-7 days. Autop development automation takes 3-7 days to integrate for an agreed pilot. We confirm scope, access requirements, and timing before starting." },
   { q: "What is included in development automation?", a: "We integrate Autop with one agreed GitHub repository, set up its runner on your infrastructure, configure coding and review steps, and test the flow on real tasks. You choose where human approval is required. We provide documentation and team handover. Required accounts and subscriptions are agreed before setup." },
   { q: "Do I need technical knowledge to work with you?", a: "No. We handle all the technical work and explain everything in plain language. You focus on your business, we handle the AI." },
   { q: "What tools and platforms do you use?", a: "We work with whatever fits your stack - n8n, Make, custom APIs, CRMs, Telegram, WhatsApp, Slack, and more. We build around your existing tools." },

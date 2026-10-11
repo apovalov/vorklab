@@ -62,7 +62,7 @@ const processes: readonly Process[] = [
     description:
       "Connect Autop to GitHub so AI agents can implement tasks and review changes. We configure the runner, workflow, and human approval points.",
     proofKind: "neutral",
-    proofText: "Integration in 1-2 weeks · from $800",
+    proofText: "Integration in 3-7 days · from $800",
   },
   {
     icon: BarChart3,

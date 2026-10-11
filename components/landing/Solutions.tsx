@@ -50,7 +50,7 @@ const tiers = [
     priceLabel: "From",
     originalPrice: undefined,
     priceNote: "Integration + subscriptions and hosting separately",
-    duration: "1-2 weeks to integrate",
+    duration: "3-7 days to integrate",
     bullets: [
       "Autop runner setup and GitHub integration",
       "Configure coding, review, and merge approval rules",
