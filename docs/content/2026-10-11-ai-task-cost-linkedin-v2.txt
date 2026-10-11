@@ -1,0 +1,21 @@
+The AI bill says $0.05.
+The finished task costs $2.15.
+
+That is what happens in the worked example in our new VorkLab guide once you include the work around the model: checking the draft, fixing mistakes, handling exceptions, maintaining the workflow and paying for setup.
+
+At 1,000 enquiries a month, the example comes out at:
+
+• $3.00 per result with manual handling
+• $2.15 with AI drafts reviewed by a person
+• $2.32 with more autonomous processing
+
+The last option needs less human handling. It still costs more than reviewed drafts at this volume because setup and support have to be paid for too.
+
+Change the volume, and the ranking changes.
+Add just one minute of review to every draft, and the monthly cost rises by $500. That is ten times the model-and-tool bill in this example.
+
+These are illustrative planning numbers, not client results. The article shows every assumption and includes an interactive calculator and a worksheet for your own workflow.
+
+Before automating a task, count what it takes to finish it.
+
+Full article in the first comment.

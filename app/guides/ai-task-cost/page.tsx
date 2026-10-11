@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Navbar } from "@/components/landing/Navbar";
 import { Footer } from "@/components/landing/Footer";
 import { CostExplorer } from "./CostExplorer";
@@ -46,6 +47,9 @@ export default function AITaskCostGuide() {
           <p className="mt-7 max-w-2xl text-xl leading-8 text-[#B0C0C3]">Count the work needed to reach an accepted result, including the work a person still has to do.</p>
           <p className="mt-6 text-sm leading-6 text-[#B0C0C3]">By Valentin Shapovalov · 11 October 2026 · Includes an interactive example and worksheet</p>
         </header>
+        <figure className="mt-9">
+          <Image src="/guides/ai-task-cost/cover.png" alt="What does a finished AI task cost? A cost ledger includes AI usage, human review, corrections, support and setup to reach an accepted result." width={1536} height={1024} priority className="h-auto w-full rounded-xl border border-[#5EEAD4]/20" />
+        </figure>
 
         <div className="mt-10 border-l-2 border-[#5EEAD4] pl-5 sm:pl-7">
           <p className="text-lg leading-8 text-[#EDF5F4]">Model and tool usage averages five cents per enquiry. After review, corrections, maintenance and allocated setup, the accepted result costs $2.15.</p>

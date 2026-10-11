@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Navbar } from "@/components/landing/Navbar";
 import { Footer } from "@/components/landing/Footer";
 
@@ -24,6 +25,7 @@ export default function Blog() {
         <p className="mt-6 max-w-2xl text-xl leading-8 text-[#B0C0C3]">Make a clear plan, measure the work and check the result.</p>
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {guides.map((guide) => <article key={guide.href} className="flex flex-col rounded-2xl border border-[#5EEAD4]/25 p-6 sm:p-8">
+            {guide.href === "/guides/ai-task-cost" && <Link href={guide.href} className="mb-6"><Image src="/guides/ai-task-cost/cover.png" alt="What does a finished AI task cost?" width={1536} height={1024} className="h-auto w-full rounded-lg" /></Link>}
             <p className="text-sm text-[#B0C0C3]">{guide.date}</p>
             <h2 className="mt-4 text-2xl font-semibold leading-8 text-[#EDF5F4]"><Link href={guide.href} className="hover:text-[#5EEAD4]">{guide.title}</Link></h2>
             <p className="mt-4 leading-7 text-[#B0C0C3]">{guide.description}</p>
