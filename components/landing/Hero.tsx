@@ -11,7 +11,7 @@ export function Hero() {
           AI automation that works for your business
         </h1>
         <p className="text-base md:text-lg text-[var(--light-text)] mb-10 max-w-2xl mx-auto">
-          VorkLab is an AI engineering practice led by Valentin Shapovalov, with 15+ years in IT. We help business owners and teams build AI assistants and automate workflows, drawing on production experience in marketplaces, medtech, and e-commerce.
+          VorkLab is an AI engineering practice led by Valentin Shapovalov, with 15+ years in IT. We build voice and text AI agents for customer conversations and integrate development automation into your GitHub workflow. Our work draws on production experience in marketplaces, medtech, and e-commerce.
         </p>
         <div className="flex flex-col items-center gap-3">
           <a

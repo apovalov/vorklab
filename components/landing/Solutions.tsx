@@ -24,16 +24,16 @@ const tiers = [
   },
   {
     icon: Bot,
-    label: "AI assistant",
-    title: "Your own AI assistant",
-    pitch: "A Telegram bot or OpenWebUI assistant with retrieval over your documents and knowledge base.",
-    price: "$200",
+    label: "Conversational AI",
+    title: "Voice or Text Agent",
+    pitch: "An AI agent that answers customer questions, qualifies enquiries, or books appointments through voice or chat.",
+    price: "$400",
     priceLabel: "From",
-    originalPrice: "$400",
-    priceNote: "+ ~$50/month hosting",
-    duration: "3–7 days to set up",
+    originalPrice: undefined,
+    priceNote: "Setup + hosting and usage billed separately",
+    duration: "3-7 days for an initial setup",
     bullets: [
-      "Deployment on your server or managed infrastructure",
+      "One voice or chat channel, connected to your tools",
       "Answers grounded in your documents and knowledge base",
       "Two 30-minute onboarding calls",
       "One month of support and prompt updates",
@@ -43,18 +43,18 @@ const tiers = [
   },
   {
     icon: Workflow,
-    label: "Workflow automation",
-    title: "Automate one workflow",
-    pitch: "An FAQ bot, lead processing, a team assistant, or reporting: one workflow delivered end to end.",
+    label: "Development automation",
+    title: "Automate Your Development",
+    pitch: "Turn GitHub tasks into code and reviewed pull requests with Autop. We set it up for your project and your approval rules.",
     price: "$800",
     priceLabel: "From",
     originalPrice: undefined,
-    priceNote: "Per workflow",
-    duration: "2–4 weeks",
+    priceNote: "Integration + subscriptions and hosting separately",
+    duration: "1-2 weeks to integrate",
     bullets: [
-      "Discovery → MVP → iteration → handover",
-      "One agreed workflow: support, leads, content, reporting, or booking",
-      "Before-and-after metrics and A/B testing",
+      "Autop runner setup and GitHub integration",
+      "Configure coding, review, and merge approval rules",
+      "Pilot on real tasks in one agreed repository",
       "Documentation and team handover",
     ],
     ctaLabel: "Discuss your project",
@@ -90,7 +90,7 @@ export function Solutions() {
                 >
                   {isHighlighted && (
                     <span className="absolute -top-3 right-4 bg-[var(--vorklab-accent)] text-[var(--base-bg)] text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
-                      AI assistant setup
+                      Voice or text agent setup
                     </span>
                   )}
                   <Icon className="text-[var(--vorklab-accent)] mb-4" size={28} />
@@ -108,7 +108,7 @@ export function Solutions() {
                       {tier.priceLabel}
                     </p>
                     <div className="flex items-baseline gap-3 whitespace-nowrap tabular-nums">
-                      <span className={`text-4xl lg:text-5xl font-semibold tracking-tight leading-none ${tier.originalPrice ? "text-[var(--vorklab-accent)]" : "text-[var(--main-text)]"}`}>
+                      <span className={`text-4xl lg:text-5xl font-semibold tracking-tight leading-none ${tier.originalPrice || isHighlighted ? "text-[var(--vorklab-accent)]" : "text-[var(--main-text)]"}`}>
                         {tier.originalPrice && <span className="sr-only">Current price: </span>}
                         {tier.price}
                       </span>

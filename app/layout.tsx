@@ -10,7 +10,7 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "VorkLab | AI Engineering and Workflow Automation",
   description:
-    "AI assistants, knowledge search, and workflow automation for businesses. Led by Valentin Shapovalov, with 15+ years in IT.",
+    "Voice and text AI agents from $400. Development automation with Autop from $800. AI engineering led by Valentin Shapovalov.",
   metadataBase: new URL("https://vorklab.com"),
   openGraph: {
     title: "VorkLab | AI Engineering and Workflow Automation",

@@ -3,7 +3,7 @@ import {
   PhoneCall,
   Inbox,
   Bot,
-  FileText,
+  GitPullRequest,
   BarChart3,
   type LucideIcon,
 } from "lucide-react";
@@ -53,16 +53,16 @@ const processes: readonly Process[] = [
     description:
       "Give your team an assistant that retrieves answers from your documents, including Notion, Confluence, and Google Drive.",
     proofKind: "accent",
-    proofText: "Setup in 3–7 days",
+    proofText: "Setup in 3-7 days",
     proofNote: "Defined scope and fixed setup price",
   },
   {
-    icon: FileText,
-    title: "Product descriptions and content",
+    icon: GitPullRequest,
+    title: "From development task to pull request",
     description:
-      "Generate product descriptions, catalogue content, and SEO pages using templates and your brand voice.",
+      "Connect Autop to GitHub so AI agents can implement tasks and review changes. We configure the runner, workflow, and human approval points.",
     proofKind: "neutral",
-    proofText: "Batch or API delivery · your brand voice",
+    proofText: "Integration in 1-2 weeks · from $800",
   },
   {
     icon: BarChart3,

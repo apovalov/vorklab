@@ -9,7 +9,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 py-20 text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-[var(--heading-text)] mb-6">About VorkLab</h1>
           <p className="text-[var(--light-text)] text-lg mb-8">
-            VorkLab is an AI engineering practice led by Valentin Shapovalov. We build AI assistants, knowledge search, and workflow automation for businesses.
+            VorkLab is an AI engineering practice led by Valentin Shapovalov. We build voice and text AI agents for businesses and help engineering teams automate development with Autop, from GitHub tasks to reviewed pull requests.
           </p>
           <p className="text-[var(--light-text)]">Valentin brings 15+ years of IT experience, including production AI and machine learning work in marketplaces, medtech, and e-commerce.</p>
         </div>
