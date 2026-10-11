@@ -12,6 +12,7 @@ export function PlanningGuide() {
             <p className="mt-4 max-w-xl text-base leading-7 text-[var(--heading-text)]">Choose one task, define a good result, and decide how to test it. Our practical guide helps you turn an idea into a clear implementation plan with your AI assistant.</p>
             <Link href="/guides/automation-planning" className="mt-7 inline-flex items-center justify-center gap-2 rounded-md bg-[var(--vorklab-accent)] px-6 py-3 font-semibold text-[var(--base-bg)] transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--vorklab-accent)]">Read the guide<ArrowRight size={18} aria-hidden="true" /></Link>
             <p className="mt-3 text-sm text-[var(--light-text)]">Read online, copy the prompt, or download it. No sign-up.</p>
+            <Link href="/guides/ai-task-cost" className="mt-5 inline-block text-sm leading-6 text-[var(--vorklab-accent)] underline underline-offset-4">Next: calculate the cost of a completed AI task →</Link>
           </div>
           <div className="self-center rounded-xl border border-[var(--vorklab-card-border)]/60 bg-[var(--base-bg)]/50 p-6 sm:p-7">
             <h3 className="text-lg font-semibold text-[var(--main-text)]">Leave with a plan that covers</h3>

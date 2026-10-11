@@ -1,0 +1,122 @@
+VORKLAB | COST PER ACCEPTED AI WORKFLOW RESULT
+Worksheet v1.0 | 11 October 2026
+Guide: https://vorklab.com/guides/ai-task-cost
+
+Use one workflow and a defined batch or period. Label estimates separately
+from measured values. Use the same scope, workload mix, quality and deadline
+for every option. This is a planning worksheet, not a savings forecast.
+
+1. DEFINE THE OUTCOME
+Workflow:
+Input / trigger:
+Unique enquiry or task ID:
+Acceptance criteria:
+Evidence of completion in the destination system:
+Deadline / observation window:
+Prohibited errors:
+When to hand off to a person:
+Who accepts the result:
+
+2. MEASURE THE BASELINE
+Representative workload and dates:
+Incoming unique tasks:
+Accepted unique results:
+Unresolved or rejected tasks:
+Total human minutes, including checks and corrections:
+Loaded hourly cost (split by staff role if needed):
+Other attributable operating costs:
+Completion time and serious errors:
+
+3. LOG EACH AI-ASSISTED TASK
+Task ID:
+Task type / complexity:
+Model and paid tool costs for ALL attempts:
+Number of attempts / retries:
+Human review minutes:
+Additional correction minutes:
+Manual fallback minutes:
+Quality audit minutes:
+Outcome and evidence:
+Completed without human handling? (record later audits separately)
+Accepted / rejected / unresolved:
+Completion time:
+Error severity:
+
+Count each minute once. If a task is reviewed and then redone, count both.
+A direct manual handoff does not also get review time unless it happened.
+Three attempts on one task never become three accepted results.
+An audit sample does not prove that every unsampled result is correct.
+
+4. ADD FIXED AND IMPLEMENTATION COSTS
+Additional hosting / monitoring / subscriptions per month:
+Maintenance / support per month (including labour):
+Shared overhead allocation and rationale:
+Upfront process design, data preparation, integration, testing,
+training and handover:
+Planning horizon in months:
+Monthly implementation allocation = upfront cost / horizon
+Do not double-count labour already included in a supplier support fee.
+Shared costs excluded from a comparison must be identical for all options.
+Add them back for a complete business cost view.
+
+5. CALCULATE
+Human handling cost = sum over roles of (minutes / 60 * loaded hourly cost)
+Operating cost = all model/tool attempts + human handling + operation/support
+Cost including allocated setup = operating cost + implementation allocation
+Cost per accepted result = cost including allocated setup / accepted results
+Also show operating cost per accepted result without setup allocation.
+If there are no accepted results, report no completed output; do not divide
+by zero or report a zero cost per accepted result.
+
+Keep failed attempts in costs. Do not count unresolved work as accepted.
+Match expenses to outcomes. In a pilot, follow a batch through completion
+rather than dividing one month's unfinished work by another month's output.
+When later checks reveal errors, revise acceptance and add recovery costs.
+
+6. TEST THE ASSUMPTIONS
+Lower-than-expected monthly volume:
+Longer review time:
+Higher manual rework / fallback rate:
+Shorter useful life or an early integration rebuild:
+Support / hosting capacity step-ups:
+Cost of serious errors tracked separately from routine rework:
+Recalculate all options. A cheaper unit cost does not override a failed
+quality, security or service-level requirement.
+
+7. SEPARATE CAPACITY FROM CASH
+Handling hours released:
+Additional support effort (if handled internally):
+What useful work can absorb the capacity?
+Actual cash spending avoided (e.g. overtime or outsourced handling):
+Additional cash operating payments:
+Verified incremental contribution from extra work, if any:
+Monthly net cash benefit:
+Upfront cash payment:
+For a constant monthly net cash benefit:
+Cash payback months = upfront cash payment / positive monthly net cash benefit
+If net cash benefit stays <= 0, there is no cash payback. For changing
+benefits, track cumulative net cash flow until it covers upfront spending.
+Do not count unchanged salaries as cash savings. Do not deduct allocated
+setup again in monthly cash benefit when using upfront spending above.
+
+8. DECIDE AND REVISIT
+Expand / revise / stop:
+Evidence and unresolved questions:
+Owner:
+Next review date or change that triggers review:
+
+THE GUIDE'S FICTIONAL EXAMPLE
+N = monthly enquiries, all assumed accepted eventually.
+Loaded handling cost = $30/hour. Setup allocated over 12 months.
+Manual monthly cost = 3.00 * N
+Reviewed AI drafts monthly cost = 500 + 1.65 * N
+Bounded automation monthly cost = 1600 + 0.72 * N
+
+At N=1000: $3000 / $2150 / $2320, or $3.00 / $2.15 / $2.32 per result.
+Drafts: 2 review minutes on all tasks + 6 extra minutes on 20%;
+$0.05 usage per input; $250 monthly support; $3000 upfront setup.
+Bounded: 20% reviewed for 2 minutes, 10% directly handled for 6 minutes,
+70% automatic-path tasks, 10% of those audited for 2 minutes;
+$0.15 usage per input; $600 monthly support; $12000 upfront setup.
+Usage includes retries; support excludes handling already counted above.
+All rates and prices are illustrative, not client data or market averages.

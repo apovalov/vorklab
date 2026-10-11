@@ -1,0 +1,26 @@
+Five cents of AI usage can become a $2.15 completed task.
+
+In our new guide, we work through an illustrative example: 1,000 incoming enquiries a month, completed manually, with reviewed AI drafts, or through bounded automation.
+
+We count the whole workflow:
+• Model and tool usage, including retries
+• Human review, corrections and manual fallback
+• Ongoing operation and support
+• Setup costs allocated over 12 months
+
+Under the example's assumptions, the cost per accepted result is:
+
+Manual handling: $3.00
+AI drafts with human review: $2.15
+Bounded automation: $2.32
+
+The more autonomous option uses less handling time, but its setup and support costs make it more expensive than reviewed drafts at this volume. Change the volume, and the comparison changes too.
+
+These are fictional planning numbers, not client results or market prices. The same completed outcome is assumed in all three options, including work finished by a person.
+
+We also separate released staff capacity from cash savings. Saving an hour does not automatically reduce payroll.
+
+The article includes the full calculation, an interactive volume comparison, a downloadable worksheet and links to the research behind the method.
+
+Read the guide:
+https://vorklab.com/guides/ai-task-cost
