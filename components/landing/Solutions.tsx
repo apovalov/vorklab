@@ -25,7 +25,7 @@ const tiers = [
   {
     icon: Bot,
     label: "Conversational AI",
-    title: "Voice or Text Agent",
+    title: "Voice / Text Agent",
     pitch: "An AI agent that answers customer questions, qualifies enquiries, or books appointments through voice or chat.",
     price: "$400",
     priceLabel: "From",
@@ -90,7 +90,7 @@ export function Solutions() {
                 >
                   {isHighlighted && (
                     <span className="absolute -top-3 right-4 bg-[var(--vorklab-accent)] text-[var(--base-bg)] text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">
-                      Voice or text agent setup
+                      Voice / text agent setup
                     </span>
                   )}
                   <Icon className="text-[var(--vorklab-accent)] mb-4" size={28} />
